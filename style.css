@@ -406,14 +406,14 @@ header.sticky {
     margin-bottom: 4rem;
 }
 
-.project-container {
+.nav-link projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
 
-.project-container .project-card {
+.nav-link projects .project-card {
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-carolina-blue);
@@ -847,7 +847,7 @@ form textarea {
         margin-bottom: 3rem;
     }
 
-    .project-container {
+    .nav-link projects {
         grid-template-columns: repeat(1, 1fr);
     }
 }
