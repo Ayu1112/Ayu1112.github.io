@@ -398,11 +398,11 @@ header.sticky {
 
 }
 
-#Projects \*-----------------------------------*/ .project {
+#Projects \*-----------------------------------*/ .projects {
     background: var(--bg-oxford-blue);
 }
 
-.project h2 {
+.projects h2 {
     margin-bottom: 4rem;
 }
 
@@ -843,7 +843,7 @@ form textarea {
 }
 
 @media (max-width: 768px) {
-    .project h2 {
+    .projects h2 {
         margin-bottom: 3rem;
     }
 
