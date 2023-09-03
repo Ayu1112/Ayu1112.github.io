@@ -423,7 +423,7 @@ header.sticky {
 }
 
 .project-card img {
-    width: 50%;
+    width: 100%;
     transition: .5s ease;
 }
 
@@ -848,6 +848,6 @@ form textarea {
     }
 
     .project-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
