@@ -398,22 +398,22 @@ header.sticky {
 
 }
 
-#Projects \*-----------------------------------*/ .projects {
+#Projects \*-----------------------------------*/ .project {
     background: var(--bg-oxford-blue);
 }
 
-.projects h2 {
+.project h2 {
     margin-bottom: 4rem;
 }
 
-.nav-link projects {
+.project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
 
-.nav-link projects .project-card {
+.project-container .project-card {
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-carolina-blue);
@@ -843,11 +843,11 @@ form textarea {
 }
 
 @media (max-width: 768px) {
-    .projects h2 {
+    .project h2 {
         margin-bottom: 3rem;
     }
 
-    .nav-link projects {
+    .project-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
