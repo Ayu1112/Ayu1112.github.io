@@ -398,7 +398,7 @@ header.sticky {
 
 }
 
-#Projects \*-----------------------------------*/ .project {
+#Projects \*-----------------------------------*/ .nav-link.projects {
     background: var(--bg-oxford-blue);
 }
 
