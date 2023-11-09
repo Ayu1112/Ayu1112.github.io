@@ -437,7 +437,7 @@ header.sticky {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.1), black);
+    background: linear-gradient(rgba(8, 8, 8, 0.1), rgb(8, 8, 8));
     ;
     display: flex;
     justify-content: center;
